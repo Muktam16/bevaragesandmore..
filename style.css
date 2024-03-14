@@ -723,10 +723,15 @@ form .btn2 {
   padding-left: 0px;
   padding-right: 0px;
  }
-  .feedback{
+  .feedback {
+   display: flex;
     width: 100%;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+  
 
 }
 .address {
@@ -741,6 +746,8 @@ form .btn2 {
 
 }
 .form-group {
+  align-items: center;
+  justify-content:center;
   margin-bottom: 10px;
   color: #3a3e3b;
 }
